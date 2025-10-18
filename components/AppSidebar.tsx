@@ -79,7 +79,7 @@ export default function AppSidebar() {
             <SidebarMenuButton asChild>
               <Link href="/">
                 <Image src="/vercel.svg" alt="logo" width={20} height={20} />
-                Muhammad Iqbal
+                SASS POS System
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -207,7 +207,7 @@ export default function AppSidebar() {
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <SidebarMenuButton>
-                  <User2 /> Username
+                  <User2 /> jhon.doe
                   <ChevronUp className="ml-auto" />
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
