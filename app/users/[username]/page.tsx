@@ -39,7 +39,7 @@ export default function UserPage() {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbLink href="/components">Users</BreadcrumbLink>
+            <BreadcrumbLink href="/">Users</BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>

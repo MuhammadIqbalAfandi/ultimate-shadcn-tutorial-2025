@@ -79,7 +79,7 @@ export default function AppSidebar() {
             <SidebarMenuButton asChild>
               <Link href="/">
                 <Image src="/vercel.svg" alt="logo" width={20} height={20} />
-                SASS POS System
+                Apps Dashboard
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -212,8 +212,12 @@ export default function AppSidebar() {
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuItem>Account</DropdownMenuItem>
-                <DropdownMenuItem>Settings</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="/users/account">Account</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="/users/settings">Settings</Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem>Sign Out</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
